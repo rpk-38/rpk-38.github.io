@@ -1,0 +1,170 @@
+*{
+	margin: 0;   
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: #eaeaea; 
+	font:12px/1.67 Arial, Helvetica, sans-serif;
+	padding: 40px 0;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+				/*HEADER BEGIN*/
+header{
+	background: #fff;
+	height: 97px;
+	border-radius: 7px 7px 0 0;
+	-o-border-radius: 7px 7px 0 0;
+	-moz-border-radius: 7px 7px 0 0;
+	-webkit-border-radius: 7px 7px 0 0;
+}
+
+header h1{
+	float: left;
+	margin: 30px 0 0 40px;
+}
+
+.tel{
+	background: url(img/tel1.png) repeat-x 0 0;
+	padding: 3px 27px 3px 90px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #c0c0c0;
+	float: right;
+}
+
+nav{
+	float: right;
+	clear: right;
+}
+
+nav li{
+	float: right;
+	margin: 20px 30px 0 30px;
+}
+
+nav li a{
+	color: #808080;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+				/*HEADER END*/
+
+
+				/*S-BLOCK BEGIN*/
+.s-block{
+	background: url(img/bg1.png) no-repeat 0 0;
+	height: 250px;
+	padding: 85px 50px 0;
+	color: #fff;
+	line-height: 34px;
+}
+
+.fs34 {
+	font-size: 25px;
+	font-style: bold;
+}
+
+.fs35 {
+	font-size: 25px;
+	font-style: bold;
+	margin: 10px 0 35px;
+}
+
+.started{
+	background: url(img/bt.gif) repeat-x 0 0;
+	font-size: 25px;
+	color: #b90016;
+	text-transform: uppercase;
+	padding: 10px 25px 10px 25px;
+	border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	font-weight: bold;
+}
+
+				/*S-BLOCK END*/
+
+
+.middle-block{
+	background: #fff;
+	padding: 40px 0 50px 40px;
+	height: 230px;
+}
+
+.middle-block li{
+	float: left;
+	width: 260px;
+	margin-right: 45px;
+}
+
+.middle-block li:last child{
+	margin-right: 0;
+}
+
+.middle-block h2{
+	font-size: 25px;
+	color: #585858;
+}
+
+
+				/*FOOTER BEGIN*/
+footer{
+	background: #fff;
+	border-radius: 0 0 6px 6px;
+	-o-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+}
+
+.top-footer{
+	padding: 25px 0 18px 41px;
+	line-height: 8px;
+}
+
+				/*FOOTER END*/
+
+
+
+
+								/*ABOUT US BEGIN*/
+.page-block{
+	background: url(img/bg-about.png) no-repeat 0 0;
+	color: #fff;
+	padding: 20px 41px;
+}
+
+.main-block{
+	background: #fff;
+	padding: 30px 30px 30px 30px;
+}
+
+.main-block p{
+	font-size: 14px;
+}
+								/*ABOUT US END*/
+
+
+												/*MAGAZINE BEGIN*/
+.main-block-magaz{
+	background: #fff;
+	padding: 30px 30px 30px 30px;
+}
+
+
+												/*MAGAZINE END*/
